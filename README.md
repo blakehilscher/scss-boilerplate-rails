@@ -16,6 +16,7 @@ group :assets do
   gem 'uglifier'
   gem 'compass-rails'
   gem 'compass-h5bp'
+  gem 'scss-boilerplate-rails'
 end
 ```
 
