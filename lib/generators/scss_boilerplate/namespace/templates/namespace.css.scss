@@ -1,0 +1,13 @@
+/* --------------------------- */
+/* Styles for <%= namespace %> */
+/* --------------------------- */
+@import "<%= namespace %>/variables";
+@import "<%= namespace %>/helpers";
+@import "<%= namespace %>/typography";
+@import "<%= namespace %>/image_replaces";
+@import "<%= namespace %>/common";
+@import "<%= namespace %>/headers";
+@import "<%= namespace %>/footers";
+@import "<%= namespace %>/containers";
+@import "<%= namespace %>/collections";
+@import "<%= namespace %>/forms";

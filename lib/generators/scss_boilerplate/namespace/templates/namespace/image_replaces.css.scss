@@ -1,0 +1,9 @@
+/* 
+  Image Replacements. Helper mixins:
+  -
+  @include image-replace(image, ext);
+	@include image-replace-auto(image, ext)
+	@include image-bullet(image, align, ext);
+	@include image-bullet-auto(image, align, ext);
+	@include sprite-replace(image, count, ext)
+*/

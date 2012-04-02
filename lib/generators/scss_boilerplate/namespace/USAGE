@@ -1,0 +1,8 @@
+Description:
+    Generates a scss stylesheet namespace
+
+Example:
+    rails generate scss_boilerplate:namespace name
+
+    This will create:
+        what/will/it/create
