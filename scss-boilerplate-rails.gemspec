@@ -1,5 +1,3 @@
-
-
 Gem::Specification.new do |s|
   s.name        = 'scss-boilerplate-rails'
   s.version     = '0.1.0'
@@ -8,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Generate scss partials with a namespace."
   s.authors     = ["Blake Hilscher"]
   s.email       = 'blake@hilscher.ca'
-  s.files       = ["lib/acts_as_itemized.rb"]
-  s.homepage    = 'http://rubygems.org/gems/acts_as_itemized'
+  s.files       = `git ls-files`.split("\n")
+  s.homepage    = 'http://blake.hilscher.ca/'
 end
