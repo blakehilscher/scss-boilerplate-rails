@@ -5,12 +5,8 @@ module ScssBoilerplate
     
       def generate_scss_install
         template "config/compass.rb"
-        copy_file "base.css.scss", "app/assets/stylesheets/base.css.scss"
-        directory "base", "app/assets/stylesheets/base"
-        # add import to manifest
-        manifest = "app/assets/stylesheets/application.css.scss"
-        create_file manifest unless File.exists? manifest
-        append_to_file manifest, "\n@import \"base.css.scss\";"
+        copy_file "application.css.scss", "app/assets/stylesheets/application.css.scss"
+        directory "application", "app/assets/stylesheets/application"
       end
     end
   end
