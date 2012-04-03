@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'scss-boilerplate-rails'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2012-04-02'
   s.summary     = "Rails support for scss-boilerplate."
   s.description = "Generate scss partials with a namespace."
