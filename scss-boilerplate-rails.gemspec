@@ -8,4 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'blake@hilscher.ca'
   s.files       = `git ls-files`.split("\n")
   s.homepage    = 'http://blake.hilscher.ca/'
+
+  s.add_dependency("compass-rails")
+  s.add_dependency('compass-h5bp')
 end
