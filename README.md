@@ -9,7 +9,7 @@ Installation
 
 ##### 1. In your Gemfile
 
-```
+#####
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
@@ -18,7 +18,7 @@ group :assets do
   gem 'compass-h5bp'
   gem 'scss-boilerplate-rails'
 end
-```
+#####
 
 ##### 2. Install your bundle
 
