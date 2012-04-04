@@ -9,7 +9,7 @@ Installation
 
 ##### 1. In your Gemfile
 
-```ruby
+```
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
