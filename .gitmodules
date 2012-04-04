@@ -1,0 +1,3 @@
+[submodule "lib/generators/scss_boilerplate/install/templates"]
+	path = lib/generators/scss_boilerplate/install/templates
+	url = git@github.com:blakehilscher/scss-boilerplate.git
