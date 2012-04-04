@@ -9,16 +9,15 @@ Installation
 
 ##### 1. In your Gemfile
 
-#####
-group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
-  gem 'compass-rails'
-  gem 'compass-h5bp'
-  gem 'scss-boilerplate-rails'
-end
-#####
+      group :assets do
+        gem 'sass-rails'
+        gem 'coffee-rails'
+        gem 'uglifier'
+        gem 'compass-rails'
+        gem 'compass-h5bp'
+        gem 'scss-boilerplate-rails'
+      end
+
 
 ##### 2. Install your bundle
 
